@@ -17,12 +17,13 @@ public class MethodOverloading {
         System.out.println("Sum (Float):" + calculateSum(3.63f, 5.38f));
 
         System.out.format("""
-                Sum (Collection):       %d
-                Sum (Two Integers):     %d
-                Sum (Three Integers):   %d
-                Sum (Doubles):          %.2f
-                Sum (Float):            %.2f
-                """, calculateSum(5,6,9,7)), calculateSum(5,6) , calculateSum(5,6,7), calculateSum(5.5,6.3), calculateSum(3.63f,5.38f));
+       Sum (Collection):       %d
+       Sum (Two Integers):     %d
+       Sum (Three Integers):   %d
+       Sum (Doubles):          %.2f
+       Sum (Float):            %.2f
+       """, calculateSum(5,6,9,7), calculateSum(5,6), calculateSum(5,6,7), calculateSum(5.5,6.3), calculateSum(3.63f,5.38f));
+
     }
 
     /**
